@@ -2,7 +2,6 @@ import json
 import datetime
 from exmo3 import ExmoAPI
 
-
 array_json = open("settings.json", "r").read()
 settings = json.loads(array_json)
 
